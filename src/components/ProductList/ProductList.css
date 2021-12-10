@@ -1,0 +1,47 @@
+.pl {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pl-texts {
+  width: 65%;
+}
+
+.pl-header {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.pl-desc {
+  margin: 20px 0px;
+}
+
+.pl-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 85%;
+}
+
+@media screen and (max-width: 480px) {
+  .pl {
+    padding: 10px;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    padding: 10px;
+  }
+
+  .pl-header {
+    font-size: 30px;
+    font-weight: 600;
+    padding: 10px;
+  }
+}
